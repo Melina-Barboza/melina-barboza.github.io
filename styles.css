@@ -1,8 +1,22 @@
+:root {
+  --bg: #ffffff;
+  --text: #111;
+  --accent: #2563eb;
+  --card: #f9f9f9;
+}
+
+body.dark {
+  --bg: #0f172a;
+  --text: #e5e7eb;
+  --card: #1e293b;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #ffffff;
-  color: #111;
   margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: 0.3s;
 }
 
 .container {
@@ -12,32 +26,35 @@ body {
 }
 
 .header {
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .header h1 {
+  font-size: 34px;
   margin: 0;
-  font-size: 32px;
 }
 
 .header h2 {
-  margin: 5px 0 10px;
-  font-weight: normal;
-  color: #555;
+  color: var(--accent);
+  font-weight: 400;
 }
 
-.contact span {
-  display: inline-block;
-  margin-right: 15px;
-  font-size: 14px;
+.links {
+  margin-top: 10px;
 }
 
 .links a {
   margin-right: 10px;
   text-decoration: none;
-  color: #0073e6;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.contact-btn {
+  background: var(--accent);
+  color: white !important;
+  padding: 6px 12px;
+  border-radius: 5px;
 }
 
 section {
@@ -45,13 +62,15 @@ section {
 }
 
 h3 {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
+  border-left: 4px solid var(--accent);
+  padding-left: 10px;
 }
 
 .job {
-  margin-bottom: 15px;
+  background: var(--card);
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
 }
 
 .job-header {
@@ -59,20 +78,22 @@ h3 {
   justify-content: space-between;
 }
 
-.job-role {
-  font-style: italic;
-  margin-bottom: 5px;
-}
-
-ul {
-  margin: 5px 0 10px 20px;
-}
-
 .skills span {
   display: inline-block;
-  background: #f2f2f2;
-  padding: 5px 10px;
+  background: var(--card);
+  padding: 6px 10px;
   margin: 5px;
-  border-radius: 4px;
-  font-size: 13px;
+  border-radius: 5px;
+}
+
+/* Toggle button */
+#theme-toggle {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background: var(--card);
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
 }
