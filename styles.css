@@ -20,6 +20,7 @@ body {
   font-family: "Segoe UI", Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
+  line-height: 1.6;
   transition: 0.3s;
 }
 
@@ -33,6 +34,7 @@ body {
 .header h1 {
   margin: 0;
   font-size: 34px;
+  letter-spacing: 1px;
 }
 
 .header h2 {
@@ -67,7 +69,6 @@ section {
 h3 {
   border-left: 3px solid var(--accent);
   padding-left: 10px;
-  margin-bottom: 10px;
 }
 
 /* JOB */
@@ -81,11 +82,18 @@ h3 {
 .job-header {
   display: flex;
   justify-content: space-between;
-  font-weight: bold;
+  align-items: flex-start;
 }
 
-.job p {
-  margin: 5px 0 0;
+.job-role {
+  font-style: italic;
+  color: var(--subtext);
+  margin-top: 3px;
+}
+
+.job-meta {
+  text-align: right;
+  font-size: 14px;
   color: var(--subtext);
 }
 
