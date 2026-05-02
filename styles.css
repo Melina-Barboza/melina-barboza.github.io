@@ -1,14 +1,18 @@
 :root {
+  --bg: #1e1e1e;
+  --text: #d4d4d4;
+  --accent: #4fc1ff;
+  --subtext: #9cdcfe;
+  --card: #252526;
+}
+
+/* Light mode */
+body.light {
   --bg: #ffffff;
   --text: #111;
   --accent: #2563eb;
-  --card: #f9f9f9;
-}
-
-body.dark {
-  --bg: #0f172a;
-  --text: #e5e7eb;
-  --card: #1e293b;
+  --subtext: #555;
+  --card: #f2f2f2;
 }
 
 body {
@@ -25,20 +29,18 @@ body {
   padding: 40px;
 }
 
-.header {
-  margin-bottom: 30px;
-}
-
+/* HEADER */
 .header h1 {
-  font-size: 34px;
   margin: 0;
+  font-size: 34px;
 }
 
 .header h2 {
-  color: var(--accent);
+  color: var(--subtext);
   font-weight: 400;
 }
 
+/* LINKS */
 .links {
   margin-top: 10px;
 }
@@ -52,47 +54,59 @@ body {
 
 .contact-btn {
   background: var(--accent);
-  color: white !important;
+  color: #000 !important;
   padding: 6px 12px;
   border-radius: 5px;
 }
 
+/* SECTIONS */
 section {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 h3 {
-  border-left: 4px solid var(--accent);
+  border-left: 3px solid var(--accent);
   padding-left: 10px;
+  margin-bottom: 10px;
 }
 
+/* JOB */
 .job {
   background: var(--card);
-  padding: 10px;
+  padding: 12px;
   border-radius: 6px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .job-header {
   display: flex;
   justify-content: space-between;
+  font-weight: bold;
 }
 
+.job p {
+  margin: 5px 0 0;
+  color: var(--subtext);
+}
+
+/* SKILLS */
 .skills span {
   display: inline-block;
   background: var(--card);
   padding: 6px 10px;
   margin: 5px;
   border-radius: 5px;
+  font-size: 13px;
 }
 
-/* Toggle button */
+/* TOGGLE */
 #theme-toggle {
   position: fixed;
   top: 15px;
   right: 15px;
   border: none;
   background: var(--card);
+  color: var(--text);
   padding: 8px;
   border-radius: 50%;
   cursor: pointer;
