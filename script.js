@@ -1,6 +1,6 @@
 const toggle = document.getElementById("theme-toggle");
 
-// Default: dark mode
+// Default dark mode
 if (localStorage.getItem("theme") === "light") {
   document.body.classList.add("light");
   toggle.textContent = "🌙";
