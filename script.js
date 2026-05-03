@@ -1,21 +1,22 @@
 const toggle = document.getElementById("theme-toggle");
 
-// Default dark mode
-if (localStorage.getItem("theme") === "light") {
-  document.body.classList.add("light");
-  toggle.textContent = "🌙";
-} else {
-  toggle.textContent = "☀️";
-}
+if (toggle) {
+  const userPref = localStorage.getItem("theme");
+  const systemPref = window.matchMedia("(prefers-color-scheme: light)").matches;
 
-toggle.addEventListener("click", () => {
-  document.body.classList.toggle("light");
-
-  if (document.body.classList.contains("light")) {
-    localStorage.setItem("theme", "light");
+  if (userPref === "light" || (!userPref && systemPref)) {
+    document.body.classList.add("light");
     toggle.textContent = "🌙";
   } else {
-    localStorage.setItem("theme", "dark");
     toggle.textContent = "☀️";
   }
-});
+
+  toggle.addEventListener("click", () => {
+    document.body.classList.toggle("light");
+
+    const isLight = document.body.classList.contains("light");
+
+    localStorage.setItem("theme", isLight ? "light" : "dark");
+    toggle.textContent = isLight ? "🌙" : "☀️";
+  });
+}
