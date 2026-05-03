@@ -1,10 +1,13 @@
 :root {
-  --bg: linear-gradient(135deg, #0f172a, #111827);
+/* Gris verdoso oscuro profundo */
+  --bg: linear-gradient(135deg, #1a1d1a, #141a14); 
   --text: #e5e7eb;
-  --subtext: #cbd5f5;
-  --accent: #38bdf8;
-  --line: #1f2937;
-  --card: #111827;
+  /* Subtexto con un tinte verdoso muy sutil */
+  --subtext: #a7b5a7; 
+  /* Azul cian para que resalte sobre el verde oscuro */
+  --accent: #4ade80; 
+  --line: #2d332d;
+  --card: #1c211c;
 }
 
 /* Light mode */
