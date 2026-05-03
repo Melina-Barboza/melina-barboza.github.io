@@ -1,14 +1,12 @@
 :root {
-  /* Fondo oscuro verdoso */
-  --bg: linear-gradient(135deg, #1a1d1a, #141a14); 
+  --bg: linear-gradient(135deg, #1a1d1a, #141a14);
   --text: #e5e7eb;
-  --subtext: #a7b5a7; 
-  --accent: #4ade80; 
+  --subtext: #a7b5a7;
+  --accent: #4ade80;
   --line: #2d332d;
   --card: #1c211c;
 }
 
-/* Light mode */
 body.light {
   --bg: #ffffff;
   --text: #111;
@@ -24,13 +22,14 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 /* CONTAINER */
 .container {
   max-width: 900px;
   margin: auto;
-  padding: 40px;
+  padding: 40px 20px;
 }
 
 /* HEADER */
@@ -40,7 +39,6 @@ body {
   margin-bottom: 25px;
 }
 
-/* CENTRADO HEADER */
 .centered {
   text-align: center;
 }
@@ -48,7 +46,6 @@ body {
 .header h1 {
   margin: 0;
   font-size: 34px;
-  letter-spacing: 1px;
 }
 
 .header h2 {
@@ -59,7 +56,10 @@ body {
 /* LINKS */
 .links {
   margin-top: 10px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .links a {
@@ -68,7 +68,12 @@ body {
   font-weight: 500;
 }
 
-/* Iconos SVG */
+.links a:hover,
+.links a:focus {
+  opacity: 0.8;
+}
+
+/* ICONS */
 .link-item {
   display: inline-flex;
   align-items: center;
@@ -80,19 +85,13 @@ body {
   height: 16px;
 }
 
-/* Separador | */
+/* SEPARATOR */
 .separator {
   margin: 0 8px;
   color: var(--subtext);
 }
 
-/* Hover moderno */
-.links a:hover {
-  opacity: 0.8;
-  transition: 0.2s;
-}
-
-/* Botón contacto */
+/* CONTACT BUTTON */
 .contact-btn {
   background: var(--accent);
   color: #000 !important;
@@ -112,45 +111,20 @@ section {
 }
 
 h3 {
-  margin-bottom: 10px;
   color: var(--accent);
 }
 
 /* JOB */
-.job {
-  margin-bottom: 20px;
-}
-
 .job-header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.job-role {
-  font-style: italic;
-  color: var(--subtext);
-}
-
 .job-meta {
   text-align: right;
   font-size: 14px;
   color: var(--subtext);
-}
-
-/* LISTAS */
-ul {
-  margin-top: 5px;
-}
-
-/* TECH STACK */
-.skills span {
-  display: inline-block;
-  background: var(--card);
-  padding: 6px 10px;
-  margin: 5px;
-  border-radius: 5px;
-  font-size: 13px;
 }
 
 /* CERTIFICATIONS */
@@ -175,7 +149,24 @@ ul {
   border: none;
   background: var(--card);
   color: var(--text);
-  padding: 8px;
+  padding: 10px;
   border-radius: 50%;
   cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .job-header {
+    flex-direction: column;
+  }
+
+  .job-meta {
+    text-align: left;
+    margin-top: 5px;
+  }
 }
