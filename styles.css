@@ -101,10 +101,6 @@ h3 {
   color: var(--subtext);
 }
 
-ul {
-  margin-top: 5px;
-}
-
 /* SKILLS */
 .skills span {
   display: inline-block;
@@ -113,6 +109,20 @@ ul {
   margin: 5px;
   border-radius: 5px;
   font-size: 13px;
+}
+
+/* CERTIFICATIONS */
+.cert-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cert-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: var(--card);
+  border-radius: 5px;
+  border-left: 3px solid var(--accent);
 }
 
 /* TOGGLE */
