@@ -1,10 +1,8 @@
 :root {
-/* Gris verdoso oscuro profundo */
+  /* Fondo oscuro verdoso */
   --bg: linear-gradient(135deg, #1a1d1a, #141a14); 
   --text: #e5e7eb;
-  /* Subtexto con un tinte verdoso muy sutil */
   --subtext: #a7b5a7; 
-  /* Azul cian para que resalte sobre el verde oscuro */
   --accent: #4ade80; 
   --line: #2d332d;
   --card: #1c211c;
@@ -42,6 +40,11 @@ body {
   margin-bottom: 25px;
 }
 
+/* CENTRADO HEADER */
+.centered {
+  text-align: center;
+}
+
 .header h1 {
   margin: 0;
   font-size: 34px;
@@ -56,19 +59,49 @@ body {
 /* LINKS */
 .links {
   margin-top: 10px;
+  text-align: center;
 }
 
 .links a {
-  margin-right: 10px;
   text-decoration: none;
   color: var(--accent);
+  font-weight: 500;
 }
 
+/* Iconos SVG */
+.link-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* Separador | */
+.separator {
+  margin: 0 8px;
+  color: var(--subtext);
+}
+
+/* Hover moderno */
+.links a:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+/* Botón contacto */
 .contact-btn {
   background: var(--accent);
   color: #000 !important;
   padding: 6px 12px;
   border-radius: 5px;
+}
+
+.contact-btn:hover {
+  transform: translateY(-1px);
 }
 
 /* SECTIONS */
@@ -91,6 +124,7 @@ h3 {
 .job-header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .job-role {
@@ -104,7 +138,12 @@ h3 {
   color: var(--subtext);
 }
 
-/* SKILLS */
+/* LISTAS */
+ul {
+  margin-top: 5px;
+}
+
+/* TECH STACK */
 .skills span {
   display: inline-block;
   background: var(--card);
