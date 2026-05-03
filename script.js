@@ -1,10 +1,10 @@
 const toggle = document.getElementById("theme-toggle");
 
 if (toggle) {
-  const userPref = localStorage.getItem("theme");
-  const systemPref = window.matchMedia("(prefers-color-scheme: light)").matches;
+  const savedTheme = localStorage.getItem("theme");
+  const prefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
 
-  if (userPref === "light" || (!userPref && systemPref)) {
+  if (savedTheme === "light" || (!savedTheme && prefersLight)) {
     document.body.classList.add("light");
     toggle.textContent = "🌙";
   } else {
@@ -12,9 +12,7 @@ if (toggle) {
   }
 
   toggle.addEventListener("click", () => {
-    document.body.classList.toggle("light");
-
-    const isLight = document.body.classList.contains("light");
+    const isLight = document.body.classList.toggle("light");
 
     localStorage.setItem("theme", isLight ? "light" : "dark");
     toggle.textContent = isLight ? "🌙" : "☀️";
