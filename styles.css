@@ -1,10 +1,19 @@
 :root {
-  --bg: linear-gradient(135deg, #1a1d1a, #141a14);
-  --text: #e5e7eb;
-  --subtext: #a7b5a7;
-  --accent: #4ade80;
-  --line: #2d332d;
-  --card: #1c211c;
+  /* Backgrounds */
+  --bg: linear-gradient(135deg, #081018, #0b1620);
+  --text: #d6e2ea;
+
+  /* Secondary text */
+  --subtext: #7fa2b8;
+
+  /* Accent cyan/teal */
+  --accent: #16c7c7;
+
+  /* Borders and lines */
+  --line: #163040;
+
+  /* Cards / sections */
+  --card: #0d1b26;
 }
 
 /* LIGHT MODE */
