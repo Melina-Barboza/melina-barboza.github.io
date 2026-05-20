@@ -10,7 +10,7 @@ Cybersecurity engineer with strong experience in cloud security, system hardenin
 
 🚀 Portfolio / CV Website:
 
-:contentReference[oaicite:0]{index=0}
+https://delgadoroberto.github.io/
 
 ---
 
