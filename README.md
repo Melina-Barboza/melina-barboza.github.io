@@ -112,6 +112,8 @@ This repository uses GitHub Actions to:
 ├── LICENSE
 └── .gitignore
 
+```
+
 # 📜 Certifications
 
 - Microsoft Certified: Identity and Access Administrator Associate (SC-300)
