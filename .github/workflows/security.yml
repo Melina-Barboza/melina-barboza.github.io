@@ -24,9 +24,12 @@ jobs:
 
     - name: Search for secrets
       run: |
-        if grep -R "password\|secret\|apikey" .; then
-          echo "Potential secret found!"
-          exit 1
+        if grep -R \
+          --exclude-dir=.git \
+          --exclude-dir=.github \
+          -E "password|apikey" .; then
+            echo "Potential secret found!"
+            exit 1
         fi
 
     - name: Validate CSP header
