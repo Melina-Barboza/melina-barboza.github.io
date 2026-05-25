@@ -1,29 +1,34 @@
-# 👋 Roberto Delgado
+<div align="center">
 
-## Senior Cybersecurity Engineer | Cloud Security | DevSecOps
+# 👋 Hi there, I'm Roberto Delgado
 
-Cybersecurity engineer with strong experience in cloud security, system hardening, vulnerability management, and security automation. Focused on integrating security into modern engineering workflows through DevSecOps practices, CI/CD security controls, and cloud security posture management.
+<p align="center">
 
----
+<img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=24&duration=3000&pause=1000&color=16C7C7&center=true&vCenter=true&width=900&lines=Senior+Cybersecurity+Consultant;Infrastructure+Security+%26+Cloud+Security;DevSecOps+%26+Security+Automation;Security+Governance+%26+Vulnerability+Management" />
 
-# 🌐 Live Website
+</p>
 
-🚀 Portfolio / CV Website:
-
-https://delgadoroberto.github.io/
+</div>
 
 ---
 
-# 🔍 Focus Areas
+## 👨‍💻 About Me
 
-- DevSecOps pipelines and CI/CD security
-- Cloud security and hardening
-- Infrastructure as Code (Terraform)
-- Container and image security
-- Vulnerability management
-- Security automation
-- Application security
-- Compliance-aligned security engineering
+Cybersecurity professional with 12+ years of experience working in:
+
+- Cloud Security (Azure / AWS)
+- Vulnerability Management
+- Infrastructure Security
+- Governance, Risk & Compliance (GRC)
+- Security Controls & Hardening
+- DevSecOps & Security Automation
+
+Currently working as a Senior Cybersecurity Consultant at KPMG Argentina.
+
+Previous professional experience:
+
+- Deloitte Argentina
+- Grupo Supervielle S.A.
 
 ---
 
@@ -31,75 +36,157 @@ https://delgadoroberto.github.io/
 
 ## ☁️ Cloud & Infrastructure
 
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-5835CC?style=for-the-badge&logo=terraform&logoColor=white)
+<p align="left">
+
+<img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Terraform-5835CC?style=for-the-badge&logo=terraform&logoColor=white" />
+
+<img src="https://img.shields.io/badge/LocalStack-121212?style=for-the-badge" />
+
+</p>
 
 ---
 
-## ⚙️ CI/CD & DevSecOps
+## ⚙️ DevSecOps & Automation
 
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
+<p align="left">
 
----
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
 
-## 🔐 Security & AppSec
+<img src="https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white" />
 
-![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aquasecurity&logoColor=white)
-![Snyk](https://img.shields.io/badge/Snyk-4C4A73?style=for-the-badge&logo=snyk&logoColor=white)
-![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-000000?style=for-the-badge&logo=owasp&logoColor=white)
+<img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
 
----
+<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />
 
-## 🛡️ Cloud Security
+<img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
 
-![Prowler](https://img.shields.io/badge/Prowler-1A1A1A?style=for-the-badge)
-![Defender for Cloud](https://img.shields.io/badge/Microsoft_Defender_for_Cloud-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+</p>
 
 ---
 
-## 🧑‍💻 Automation & Scripting
+## 🔐 Security Operations & Hardening
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+<p align="left">
 
----
+<img src="https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aquasecurity&logoColor=white" />
 
-## 🐧 Operating Systems
+<img src="https://img.shields.io/badge/OWASP_ZAP-000000?style=for-the-badge&logo=owasp&logoColor=white" />
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+<img src="https://img.shields.io/badge/Nessus-00C176?style=for-the-badge" />
 
----
+<img src="https://img.shields.io/badge/CIS_Benchmarks-005A9C?style=for-the-badge" />
 
-# 🔒 Security Features
+<img src="https://img.shields.io/badge/Defender_for_Cloud-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
 
-This repository includes security-focused development practices:
-
-- Content Security Policy (CSP)
-- Minimal external dependencies
-- GitHub Actions security workflow
-- Secret scanning validation
-- Secure static website deployment
-- Responsive and accessibility-focused design
+</p>
 
 ---
 
-# ⚙️ GitHub Actions
+## 🛡️ Governance & Compliance
 
-This repository uses GitHub Actions to:
+<p align="left">
 
-- Validate project structure
-- Run basic security checks
-- Detect potential secrets
-- Improve repository hygiene
+<img src="https://img.shields.io/badge/NIST_CSF-005A9C?style=for-the-badge" />
+
+<img src="https://img.shields.io/badge/ISO_27001-005A9C?style=for-the-badge" />
+
+<img src="https://img.shields.io/badge/CIS_Controls-005A9C?style=for-the-badge" />
+
+<img src="https://img.shields.io/badge/SOX_Compliance-005A9C?style=for-the-badge" />
+
+</p>
 
 ---
 
-# 📁 Repository Structure
+## 🚀 Featured Projects
 
-```text
+### DevSecOps Security Pipeline
+
+CI/CD pipeline with integrated security validations:
+
+- SAST scanning
+- Dependency scanning
+- Docker image vulnerability scanning
+- OWASP ZAP integration
+- Trivy security analysis
+- GitHub Actions automation
+
+### Terraform S3 Security Lab
+
+Infrastructure-as-Code security project focused on:
+
+- Terraform security validation
+- S3 hardening
+- Checkov scanning
+- Cloud security best practices
+- Misconfiguration remediation
+
+---
+
+## 🎓 Certifications
+
+- Microsoft Certified (Security & Azure)
+- DevSecOps Fundamentals – Cybrary
+
+---
+
+## 🌐 Website & Contact
+
+<p align="left">
+
+<a href="https://www.linkedin.com/in/delgado-roberto/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
+
+<a href="mailto:roberto.delgadopistan@gmail.com">
+  <img src="https://img.shields.io/badge/Contact_Me-24292F?style=for-the-badge&logo=maildotru&logoColor=white">
+</a>
+
+</p>
+
+<p align="left">
+
+<a href="https://delgadoroberto.github.io/">
+  <img src="https://img.shields.io/badge/Cybersecurity_CV-0F172A?style=for-the-badge&logo=readme&logoColor=white">
+</a>
+
+<a href="https://github.com/delgadoroberto">
+  <img src="https://img.shields.io/badge/GitHub_Profile-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+</p>
+
+---
+
+## 📌 About This Repository
+
+This repository contains the source code for my personal cybersecurity portfolio website.
+
+The website includes:
+
+- Professional profile and cybersecurity experience
+- Technical and GRC background
+- Certifications and cybersecurity skills
+- DevSecOps and Cloud Security projects
+- Contact and professional links
+
+Focused on:
+
+- Cloud Security
+- DevSecOps
+- Infrastructure Security
+- Vulnerability Management
+- Security Governance & Compliance
+
+---
+
+## 📂 Repository Structure
+
+```bash
 .
 ├── .github/
 │   └── workflows/
@@ -111,25 +198,27 @@ This repository uses GitHub Actions to:
 ├── SECURITY.md
 ├── LICENSE
 └── .gitignore
-
 ```
 
-# 📜 Certifications
+---
 
-- Microsoft Certified: Identity and Access Administrator Associate (SC-300)
-- Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)
-- Microsoft Certified: Azure Fundamentals (AZ-900)
+## ⚡ Current Focus
+
+Currently improving skills in:
+
+- DevSecOps
+- Cloud Security
+- Bash Scripting
+- Terraform Security
+- Detection Engineering
+- Security Automation
+- Threat Detection
+- Vulnerability Management
 
 ---
 
-# 🤝 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/delgado-roberto/)
-
-[![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)](https://github.com/delgadoroberto)
-
----
-
-# 📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
+
+See the LICENSE file for more information.
