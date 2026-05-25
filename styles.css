@@ -121,7 +121,7 @@ body {
 }
 
 /* ========================= */
-/* 🔲 CARD STYLE (CLAVE) */
+/* CARD STYLE */
 /* ========================= */
 
 section {
@@ -138,16 +138,14 @@ section {
   transition: all 0.25s ease;
 }
 
-/* HOVER EFFECT (PRO) */
 .card:hover {
   border-color: var(--accent);
   box-shadow:
     0 0 0 1px var(--accent),
-    0 2px 12px rgba(74, 222, 128, 0.08);
+    0 2px 12px rgba(22, 199, 199, 0.08);
   transform: translateY(-2px);
 }
 
-/* FOCUS (accesibilidad) */
 .card:focus-within {
   border-color: var(--accent);
   box-shadow: 0 0 0 1px var(--accent);
@@ -184,20 +182,31 @@ h3 {
 /* LISTS */
 ul {
   margin-top: 5px;
+  padding-left: 20px;
 }
 
-/* CERTIFICATIONS */
+/* ========================= */
+/* CERTIFICATIONS (FIX FINAL) */
+/* ========================= */
+
 .cert-list {
-  list-style: none;
-  padding: 0;
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
 }
 
 .cert-list li {
   margin-bottom: 10px;
-  padding: 10px;
-  background: var(--card);
-  border-radius: 5px;
-  border-left: 3px solid var(--accent);
+}
+
+/* FIX LINKS INSIDE CERTS */
+.cert-list a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.cert-list a:hover {
+  text-decoration: underline;
 }
 
 /* TOGGLE */
