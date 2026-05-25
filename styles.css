@@ -77,11 +77,14 @@ body {
   text-decoration: none;
   color: var(--accent);
   font-weight: 500;
+  transition:
+    opacity 0.2s ease,
+    color 0.2s ease;
 }
 
 .links a:hover,
 .links a:focus {
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 /* ACCESSIBILITY */
@@ -114,6 +117,9 @@ body {
   color: #000 !important;
   padding: 6px 12px;
   border-radius: 5px;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
 }
 
 .contact-btn:hover {
@@ -135,17 +141,24 @@ section {
   border-radius: 10px;
   padding: 20px;
 
-  transition: all 0.25s ease;
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
 }
 
+/* HOVER EFFECT */
 .card:hover {
   border-color: var(--accent);
+
   box-shadow:
     0 0 0 1px var(--accent),
     0 2px 12px rgba(22, 199, 199, 0.08);
+
   transform: translateY(-2px);
 }
 
+/* ACCESSIBILITY */
 .card:focus-within {
   border-color: var(--accent);
   box-shadow: 0 0 0 1px var(--accent);
@@ -157,9 +170,18 @@ h3 {
   margin-top: 0;
 }
 
+h4 {
+  margin-bottom: 10px;
+  color: var(--text);
+}
+
 /* JOB */
 .job {
   margin-bottom: 20px;
+}
+
+.job:last-child {
+  margin-bottom: 0;
 }
 
 .job-header {
@@ -185,8 +207,12 @@ ul {
   padding-left: 20px;
 }
 
+li {
+  margin-bottom: 6px;
+}
+
 /* ========================= */
-/* CERTIFICATIONS (FIX FINAL) */
+/* CERTIFICATIONS */
 /* ========================= */
 
 .cert-list {
@@ -199,14 +225,29 @@ ul {
   margin-bottom: 10px;
 }
 
-/* FIX LINKS INSIDE CERTS */
+/* CERTIFICATION LINKS */
 .cert-list a {
   color: var(--text);
   text-decoration: none;
+
+  border-bottom: 1px solid transparent;
+
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease;
 }
 
+/* EXTERNAL LINK INDICATOR */
+.cert-list a::after {
+  content: " ↗";
+  font-size: 0.9em;
+  color: var(--accent);
+}
+
+/* HOVER EFFECT */
 .cert-list a:hover {
-  text-decoration: underline;
+  color: var(--accent);
+  border-bottom: 1px solid var(--accent);
 }
 
 /* TOGGLE */
@@ -214,13 +255,19 @@ ul {
   position: fixed;
   top: 15px;
   right: 15px;
+
   border: none;
   background: var(--card);
   color: var(--text);
+
   padding: 10px;
   border-radius: 50%;
+
   cursor: pointer;
-  transition: transform 0.2s ease;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
 }
 
 #theme-toggle:hover {
@@ -229,6 +276,7 @@ ul {
 
 /* RESPONSIVE */
 @media (max-width: 600px) {
+
   .job-header {
     flex-direction: column;
   }
@@ -236,5 +284,13 @@ ul {
   .job-meta {
     text-align: left;
     margin-top: 5px;
+  }
+
+  .links {
+    gap: 8px;
+  }
+
+  .separator {
+    display: none;
   }
 }
