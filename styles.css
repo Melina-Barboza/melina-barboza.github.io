@@ -294,3 +294,30 @@ li {
     display: none;
   }
 }
+
+/* ========================= */
+/* TECH STACK GRID */
+/* ========================= */
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.tech-item h4 {
+  margin-bottom: 6px;
+  color: var(--accent);
+}
+
+.tech-item p {
+  margin: 0;
+  color: var(--text);
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .tech-grid {
+    grid-template-columns: 1fr;
+  }
+}
