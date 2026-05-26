@@ -142,14 +142,6 @@ Infrastructure-as-Code security project focused on:
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
-<a href="mailto:roberto.delgadopistan@gmail.com">
-  <img src="https://img.shields.io/badge/Contact_Me-24292F?style=for-the-badge&logo=maildotru&logoColor=white">
-</a>
-
-</p>
-
-<p align="left">
-
 <a href="https://delgadoroberto.github.io/">
   <img src="https://img.shields.io/badge/Cybersecurity_CV-0F172A?style=for-the-badge&logo=readme&logoColor=white">
 </a>
