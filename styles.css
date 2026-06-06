@@ -9,14 +9,14 @@ html{
 }
 
 body{
-    font-family:Segoe UI,sans-serif;
+    font-family:'Segoe UI',sans-serif;
     transition:.3s;
 }
 
 /* TEMAS */
 
 .dark-theme{
-    background:#1d102f;
+    background:#2a003f;
     color:#f5f5f5;
 }
 
@@ -25,7 +25,7 @@ body{
     color:#222;
 }
 
-/* NAV */
+/* NAVBAR */
 
 nav{
     position:sticky;
@@ -36,8 +36,14 @@ nav{
     justify-content:space-between;
     align-items:center;
 
-    padding:20px 8%;
-    background:#7b2cbf;
+    padding:18px 8%;
+
+    background:#9d4edd;
+}
+
+.logo{
+    color:white;
+    font-size:1.2rem;
 }
 
 nav ul{
@@ -47,53 +53,57 @@ nav ul{
 }
 
 nav a{
-    color:white;
+    color:#ffd6ec;
     text-decoration:none;
     font-weight:600;
 }
 
+nav a:hover{
+    color:white;
+}
+
 #theme-toggle{
     border:none;
-    padding:10px 15px;
-    cursor:pointer;
+    background:#ff69b4;
+    color:white;
+    padding:10px 14px;
     border-radius:8px;
+    cursor:pointer;
 }
 
 /* HERO */
 
 .hero{
+    max-width:900px;
+    margin:0 auto;
     text-align:center;
-    padding:80px 20px;
-}
-
-.profile-photo{
-    width:180px;
-    height:180px;
-    border-radius:50%;
-    object-fit:cover;
-    margin-bottom:20px;
+    padding:80px 20px 60px;
 }
 
 .hero h1{
     font-size:3rem;
     color:#ff69b4;
+    margin-bottom:10px;
 }
 
 .hero h2{
-    margin-top:10px;
     color:#c77dff;
+    margin-bottom:25px;
 }
 
-.hero p{
-    margin-top:20px;
+.hero-description{
+    max-width:700px;
+    margin:0 auto;
+    line-height:1.8;
+    font-size:1.1rem;
 }
 
 .hero-buttons{
-    margin-top:30px;
+    margin-top:35px;
 
     display:flex;
     justify-content:center;
-    gap:15px;
+    gap:20px;
     flex-wrap:wrap;
 }
 
@@ -101,10 +111,11 @@ nav a{
 
 .btn-primary,
 .btn-secondary{
-    padding:12px 22px;
-    border-radius:8px;
     text-decoration:none;
-    font-weight:bold;
+    padding:12px 24px;
+    border-radius:8px;
+    font-weight:600;
+    transition:.3s;
 }
 
 .btn-primary{
@@ -117,18 +128,28 @@ nav a{
     color:white;
 }
 
+.btn-primary:hover,
+.btn-secondary:hover{
+    transform:translateY(-2px);
+}
+
 /* SECCIONES */
 
 section{
-    max-width:1100px;
-    margin:auto;
-    padding:70px 20px;
+    max-width:900px;
+    margin:25px auto;
+    padding:35px;
+
+    background:rgba(77,0,121,.55);
+
+    border-radius:15px;
 }
 
 section h3{
-    font-size:2rem;
-    margin-bottom:30px;
     color:#c77dff;
+    margin-bottom:20px;
+    padding-bottom:10px;
+    border-bottom:2px solid #ff69b4;
 }
 
 /* SKILLS */
@@ -136,33 +157,47 @@ section h3{
 .skills-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:20px;
+    gap:15px;
 }
 
 .skill-card{
     background:#7b2cbf;
-    padding:20px;
-    border-radius:12px;
+    padding:15px;
+    border-radius:10px;
     text-align:center;
 }
 
 /* PROYECTOS */
 
 .project-card{
-    background:#3c164f;
-    padding:25px;
-    border-radius:12px;
-    margin-bottom:20px;
+    background:#4d0079;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.project-card h4{
+    margin-bottom:10px;
 }
 
 /* EXPERIENCIA */
 
 .timeline-item{
-    margin-bottom:25px;
+    margin-bottom:20px;
 }
 
 .timeline-item span{
     color:#c77dff;
+}
+
+/* EDUCACION */
+
+#education ul{
+    padding-left:20px;
+}
+
+#education li{
+    margin-bottom:10px;
 }
 
 /* CONTACTO */
@@ -189,4 +224,8 @@ section h3{
         font-size:2rem;
     }
 
+    section{
+        margin:15px;
+        padding:25px;
+    }
 }
