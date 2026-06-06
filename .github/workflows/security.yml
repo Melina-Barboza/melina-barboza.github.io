@@ -2,9 +2,12 @@ name: Security Checks
 
 on:
 push:
-branches: ["main"]
+branches:
+- main
+
 pull_request:
-branches: ["main"]
+branches:
+- main
 
 jobs:
 security:
@@ -27,8 +30,8 @@ steps:
         --exclude-dir=.git \
         --exclude-dir=.github \
         -E "password|apikey" .; then
-          echo "Potential secret found!"
-          exit 1
+        echo "Potential secret found!"
+        exit 1
       fi
 
   - name: Security check completed
