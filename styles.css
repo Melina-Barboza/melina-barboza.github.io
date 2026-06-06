@@ -1,35 +1,28 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 40px;
-  background-color: #fdfdfd;
+/* Tema oscuro por defecto */
+body.dark-theme {
+  background-color: #2a003f; /* lila profundo */
+  color: #ffb6c1; /* rosa claro */
+}
+
+body.light-theme {
+  background-color: #fff;
   color: #333;
 }
 
-header {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-h1 {
-  color: #e76f51; /* tono cálido */
-}
-
-h2 {
-  color: #264653; /* contraste */
-}
-
-section {
-  margin-bottom: 30px;
+/* Encabezados */
+h1, h2 {
+  color: #ff69b4; /* rosa fuerte */
 }
 
 h3 {
-  color: #2a9d8f;
-  border-bottom: 2px solid #e9c46a;
+  color: #c77dff; /* lila vibrante */
+  border-bottom: 2px solid #ff69b4;
   padding-bottom: 5px;
 }
 
+/* Links */
 a {
-  color: #e76f51;
+  color: #ff69b4;
   text-decoration: none;
 }
 
@@ -37,11 +30,12 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Botón de conexión */
 .btn-connect {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 20px;
-  background-color: #e76f51;
+  background-color: #c77dff;
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
@@ -49,5 +43,40 @@ a:hover {
 }
 
 .btn-connect:hover {
-  background-color: #d65a3a;
+  background-color: #9d4edd;
+}
+
+/* Botón de cambio de tema */
+#theme-toggle {
+  margin-top: 20px;
+  padding: 8px 15px;
+  background-color: #ff69b4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#theme-toggle:hover {
+  background-color: #ff85c1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    margin: 20px;
+    font-size: 16px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  header h2 {
+    font-size: 18px;
+  }
+
+  section {
+    margin-bottom: 20px;
+  }
 }
