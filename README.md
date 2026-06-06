@@ -1,10 +1,10 @@
 <div align="center">
 
-# 👋 Hi there, I'm Roberto Delgado
+# 👋 Hola, soy Melina Barboza
 
 <p align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=24&duration=3000&pause=1000&color=16C7C7&center=true&vCenter=true&width=900&lines=Senior+Cybersecurity+Consultant;Infrastructure+Security+%26+Cloud+Security;DevSecOps+%26+Security+Automation;Security+Governance+%26+Vulnerability+Management" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=24&duration=3000&pause=1000&color=C77DFF&center=true&vCenter=true&width=900&lines=Analista+de+Datos+en+Formación;Excel+%7C+SQL+%7C+Power+BI;Transformando+datos+en+información;Aprendiendo+y+creciendo+en+Data+Analytics" />
 
 </p>
 
@@ -12,141 +12,103 @@
 
 ---
 
-## 👨‍💻 About Me
+## 👩‍💻 Sobre mí
 
-Cybersecurity professional with 12+ years of experience working in:
+Profesional administrativa con amplia experiencia en gestión operativa, organización de información y soporte a equipos.
 
-- Cloud Security (Azure / AWS)
-- Vulnerability Management
-- Infrastructure Security
-- Governance, Risk & Compliance (GRC)
-- Security Controls & Hardening
-- DevSecOps & Security Automation
+Actualmente me encuentro en formación en Análisis de Datos, desarrollando habilidades en:
 
-Currently working as a Senior Cybersecurity Consultant at KPMG Argentina.
+- Excel Avanzado
+- SQL (MySQL)
+- Power BI
+- Google Sheets
+- Visualización de Datos
+- Limpieza y transformación de datos
 
-Previous professional experience:
-
-- Deloitte Argentina
-- Grupo Supervielle S.A.
+Mi objetivo es iniciar una carrera profesional como Analista de Datos y aplicar el análisis de información para apoyar la toma de decisiones.
 
 ---
 
-# 💻 Tech Stack
-
-## ☁️ Cloud & Infrastructure
+# 📊 Tecnologías y Herramientas
 
 <p align="left">
 
-<img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
 
-<img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+<img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" />
 
-<img src="https://img.shields.io/badge/Terraform-5835CC?style=for-the-badge&logo=terraform&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 
-<img src="https://img.shields.io/badge/LocalStack-121212?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 
 </p>
 
 ---
 
-## ⚙️ DevSecOps & Automation
+# 🚀 Proyectos del Portfolio
+
+### Dashboard de Ventas
+
+Análisis de ventas desarrollado en Excel utilizando:
+
+- Tablas dinámicas
+- KPIs
+- Segmentadores
+- Visualización de indicadores
+
+### Dashboard de Recursos Humanos
+
+Proyecto enfocado en:
+
+- Headcount
+- Ausentismo
+- Rotación
+- Desempeño
+- Indicadores de RRHH
+
+### Prácticas SQL
+
+Consultas desarrolladas utilizando:
+
+- SELECT
+- JOIN
+- GROUP BY
+- ORDER BY
+- Funciones agregadas
+
+---
+
+## 🌎 Idiomas
+
+- Español — Nativo
+- Portugués — Avanzado
+- Inglés — Básico
+
+---
+
+## 🎓 Educación
+
+**Escuela Argentina de Negocios**  
+Licenciatura en Recursos Humanos  
+2009 – 2012
+
+---
+
+## 🌐 Contacto
 
 <p align="left">
 
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
-
-<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-
-<img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
-
-</p>
-
----
-
-## 🔐 Security Operations & Hardening
-
-<p align="left">
-
-<img src="https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aquasecurity&logoColor=white" />
-
-<img src="https://img.shields.io/badge/OWASP_ZAP-000000?style=for-the-badge&logo=owasp&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Nessus-00C176?style=for-the-badge" />
-
-<img src="https://img.shields.io/badge/CIS_Benchmarks-005A9C?style=for-the-badge" />
-
-<img src="https://img.shields.io/badge/Defender_for_Cloud-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
-
-</p>
-
----
-
-## 🛡️ Governance & Compliance
-
-<p align="left">
-
-<img src="https://img.shields.io/badge/NIST_CSF-005A9C?style=for-the-badge" />
-
-<img src="https://img.shields.io/badge/ISO_27001-005A9C?style=for-the-badge" />
-
-<img src="https://img.shields.io/badge/CIS_Controls-005A9C?style=for-the-badge" />
-
-<img src="https://img.shields.io/badge/SOX_Compliance-005A9C?style=for-the-badge" />
-
-</p>
-
----
-
-## 🚀 Featured Projects
-
-### DevSecOps Security Pipeline
-
-CI/CD pipeline with integrated security validations:
-
-- SAST scanning
-- Dependency scanning
-- Docker image vulnerability scanning
-- OWASP ZAP integration
-- Trivy security analysis
-- GitHub Actions automation
-
-### Terraform S3 Security Lab
-
-Infrastructure-as-Code security project focused on:
-
-- Terraform security validation
-- S3 hardening
-- Checkov scanning
-- Cloud security best practices
-- Misconfiguration remediation
-
----
-
-## 🎓 Certifications
-
-- Microsoft Certified (Security & Azure)
-- DevSecOps Fundamentals – Cybrary
-
----
-
-## 🌐 Website & Contact
-
-<p align="left">
-
-<a href="https://www.linkedin.com/in/delgado-roberto/">
+<a href="https://www.linkedin.com/in/amelina-barboza/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
-<a href="https://delgadoroberto.github.io/">
-  <img src="https://img.shields.io/badge/Cybersecurity_CV-0F172A?style=for-the-badge&logo=readme&logoColor=white">
+<a href="https://melina-barboza.github.io/">
+  <img src="https://img.shields.io/badge/CV_Web-C77DFF?style=for-the-badge&logo=readme&logoColor=white">
 </a>
 
-<a href="https://github.com/delgadoroberto">
+<a href="https://github.com/Melina-Barboza">
   <img src="https://img.shields.io/badge/GitHub_Profile-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
@@ -154,63 +116,30 @@ Infrastructure-as-Code security project focused on:
 
 ---
 
-## 📌 About This Repository
+## 🎯 Objetivo Actual
 
-This repository contains the source code for my personal cybersecurity portfolio website.
+Actualmente enfocada en fortalecer mis conocimientos en:
 
-The website includes:
-
-- Professional profile and cybersecurity experience
-- Technical and GRC background
-- Certifications and cybersecurity skills
-- DevSecOps and Cloud Security projects
-- Contact and professional links
-
-Focused on:
-
-- Cloud Security
-- DevSecOps
-- Infrastructure Security
-- Vulnerability Management
-- Security Governance & Compliance
+- Excel para Análisis de Datos
+- SQL
+- Power BI
+- Visualización de Datos
+- Limpieza y preparación de datos
+- Dashboards interactivos
+- Business Intelligence
 
 ---
 
-## 📂 Repository Structure
+## 📂 Repositorios Destacados
 
-```bash
-.
-├── .github/
-│   └── workflows/
-│       └── security.yml
-├── index.html
-├── styles.css
-├── script.js
-├── README.md
-├── SECURITY.md
-├── LICENSE
-└── .gitignore
-```
+Próximamente:
+
+- Dashboard de Ventas
+- Dashboard de Recursos Humanos
+- Consultas SQL
+- Casos prácticos de Excel
+- Portafolio de Data Analytics
 
 ---
 
-## ⚡ Current Focus
-
-Currently improving skills in:
-
-- DevSecOps
-- Cloud Security
-- Bash Scripting
-- Terraform Security
-- Detection Engineering
-- Security Automation
-- Threat Detection
-- Vulnerability Management
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-See the LICENSE file for more information.
+⭐ Siempre aprendiendo y construyendo nuevos proyectos de análisis de datos.
